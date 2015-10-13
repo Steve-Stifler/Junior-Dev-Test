@@ -1,0 +1,180 @@
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/*
+* Photoshop detected fonts as "Antic Slab" and "Pontano Sans",
+* so I used them
+*/
+
+body {
+	background-image: url(resources/bg-main.png);
+	clear: both;
+	margin: auto;
+	width: 1024px;
+	height: 687px;
+	margin-bottom: 1000px;
+}
+
+body, #live_chat {
+	font-family: 'Antic Slab', serif;
+}
+
+p, .topmenu_option {
+	font-family: 'Pontano Sans', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active, body {
+	color: #999999;
+}
+
+#content {
+	background-color: white;
+	border-bottom: 1px black dotted;
+}
+
+#logo, #shadow_1, #shadow_2, a, #menu_3, #text, #big_image {
+	float: left;
+}
+
+a {
+	text-align: center;
+	vertical-align: middle;
+	display: block;
+}
+
+#menu_1 {
+	float: right;
+	height: 36px;
+	width: 469px;
+	margin-left: 255px;
+	font-size: 11px;
+}
+
+.topmenu_option {
+	width: 78px;
+	height: 36px;
+	line-height: 34px;
+}
+
+#live_chat {
+	background: url(resources/banner.png) no-repeat center;
+}
+
+#live_chat, h2{
+	color: white;
+}
+
+#currency {
+	background: url(resources/bullet.png) no-repeat 100% 48%;
+}
+
+#menu_2 {
+	float: right;
+	height: 84px;
+	width: 720px;
+	font-size: 17px;
+}
+
+.midmenu_option {
+	width: 131px;
+	line-height: 84px;
+}
+
+.midmenu_option, h2 {
+	letter-spacing: 1.5px;
+}
+
+#magnifier_option {
+	width: 65px;
+}
+
+#magnifier {
+	vertical-align: middle;
+	border: 0;
+}
+
+#menu_3 {
+	height: 104px;
+	width: 1024px;
+	line-height: 104px;
+	background-color: #f4f4f4;
+	margin-bottom: 6px;
+	font-size: 14px;
+}
+
+.botmenu_option {
+	width: 128px;
+	line-height: 104px;
+	color: black !important;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+#text {
+	width: 308px;
+	height: 424px;
+	background-color: #f4f4f4;
+}
+
+#text, #shadow_1 {
+	margin-left: 40px;
+	margin-right: 20px;
+}
+
+div p{
+	margin-right: 20px;
+    margin-left: 20px;
+	font-size: 14px;
+}
+
+h2 {
+	margin-top: 24px;
+	background-color: #aecacc;
+	width: 252px;
+	text-align: center;
+	position: relative;
+	margin-left: -14px;
+	font-size: 31px;
+	font-weight: normal;
+}
+
+h2:before {
+	border-bottom: 11px solid #8ba8aa;
+    border-left: 14px solid white;
+    content: "";
+    height: 0;
+	position: absolute;
+    left: 0px;
+	top: -11px;
+    width: 0;
+}
+
+#big_image {
+	margin-bottom: 19px;
+}
+
+#shadow_1, #shadow_2 {
+	margin-bottom: 10px;
+	opacity: 0.7;
+}
