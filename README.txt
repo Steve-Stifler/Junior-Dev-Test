@@ -4,7 +4,7 @@ Folder "1_html" contains the solution for the 1st task.
 Contains:
   1_html.html - page html code
   1_css.css - page css code
-  resources - map with page images
+  resources - folder with page images
   
 Folder "2_js" contains the solution for the 2nd task.
 Contains:
