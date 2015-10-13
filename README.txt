@@ -12,7 +12,7 @@ Contains:
   jquery-1.11.3.js - jQuary source
   2_html.html - test page html code
   
-Folder "3_php" contains the solution for the 3nd task.
+Folder "3_php" contains the solution for the 3rd task.
 Contains:
   Disk_class.php - class source to operate with Disk objects
   Furniture_class.php - class source to operate with Furniture objects
